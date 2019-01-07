@@ -21,9 +21,6 @@ export class Theme extends Component {
           <View style={[styles.container, {backgroundColor: theme}]}>
             <Button1 />
             <Button2 />
-            <TouchableOpacity>
-              <Text>asdadasdasd</Text>
-            </TouchableOpacity>
           </View>
       )}
       </AppThemeContext.Consumer>
